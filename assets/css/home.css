@@ -1,4 +1,4 @@
-#masthead {
+.masthead {
     background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url('../img/BackgroundV2.jpg');
     background-size: cover;
     background-position: center;
@@ -122,4 +122,34 @@ hr.generalDivider {
     .fc-toolbar.fc-header-toolbar {
         margin-bottom: 1em !important;
     }
+}
+
+.pricingBody {
+    color: whitesmoke;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pricing-table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pricing-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pricing-table th, .pricing-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
 }
