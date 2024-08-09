@@ -1,0 +1,125 @@
+#masthead {
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url('/assets/img/BackgroundV2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#calendarContainer {
+    width: 70%;
+    height: 70%;
+}
+
+.fc-event {
+    white-space: normal !important; /* Allow the text to wrap */
+    overflow: visible !important; /* Ensure the overflow is visible */
+    text-align: center; /* Center the text */
+    cursor: pointer; /* Change cursor to pointer when hovering over events */
+}
+
+.fc-title {
+    white-space: normal !important; /* Allow the text to wrap */
+}
+
+/* Adjust month title */
+.fc-center h2 {
+    font-size: 1.5rem;
+    padding-right: 7em;
+}
+
+/* Ensure the title container spans full width for proper centering */
+.fc-center {
+    flex-grow: 1; /* Allow the center section to grow and take up available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio .portfolio-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: 300px; /* Set a fixed height for the portfolio boxes */
+}
+
+#portfolio .portfolio-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the box without distortion */
+    object-position: center; /* Center the image within the box */
+}
+
+hr.generalDivider {
+    height: 0.4rem;
+    max-width: 40rem;
+    margin: 1.5rem auto;
+    opacity: 1;
+}
+
+.fc-toolbar.fc-header-toolbar {
+    margin-bottom: 2em !important;
+}
+
+.contactIcon {
+    font-size: 35px;
+    padding: 0 1.25rem;
+}
+
+#copyright {
+    padding-top: 2rem;
+}
+
+#calendarSection {
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url('/assets/img/BackgroundV2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    padding: 6rem 10rem;
+}
+
+#calendarContainer {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    padding: 0rem 8rem;
+    padding-bottom: 3rem;
+}
+
+/* Media Queries for responsive design */
+
+/* For tablets and above */
+@media (max-width: 991.98px) {
+    #calendarContainer {
+        padding: 0rem 4rem;
+        padding-bottom: 2rem;
+    }
+    #calendarSection {
+        padding: 4rem 5rem;
+    }
+    .fc-center h2 {
+        font-size: 1.25rem; 
+        padding-right: 3em;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 575.98px) {
+    #calendarContainer {
+        padding: 0rem 1rem;
+        padding-bottom: 1rem;
+    }
+    #calendarSection {
+        padding: 2rem 2rem;
+    }
+    .fc-center h2 {
+        font-size: 1rem; 
+        padding-right: 0;
+    }
+    .fc-toolbar.fc-header-toolbar {
+        margin-bottom: 1em !important;
+    }
+}
