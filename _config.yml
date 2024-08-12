@@ -26,7 +26,7 @@ description: >
   Perfect for date nights, group activities, and anyone looking to explore pyrography. 
   Located in Spanish Fork, UT.
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Scorched" # the subpath of your site, e.g. /blog
 url: "http://scorchedprovo.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
