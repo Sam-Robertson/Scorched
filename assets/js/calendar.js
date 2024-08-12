@@ -26,15 +26,26 @@ $(document).ready(function() {
                 start: '2024-07-18T19:00:00',
                 end: '2024-07-18T22:00:00',
                 allDay: false
+            },
+            {
+                title: 'Wood Burning',
+                start: '2024-08-02T19:00:00',
+                end: '2024-08-02T22:00:00',
+                allDay: false
+            },
+            {
+                title: 'Wood Burning',
+                start: '2024-08-07T19:00:00',
+                end: '2024-08-07T22:00:00',
+                allDay: false
+            },
+            {
+                title: 'Wood Burning',
+                start: '2024-08-13T19:00:00',
+                end: '2024-08-13T22:00:00',
+                allDay: false
             }
-            // ,
-            // {
-            //     title: 'Wood Burning',
-            //     start: '2024-07-26T19:00:00',
-            //     end: '2024-07-26T22:00:00',
-            //     allDay: false
-            // }
-            // You can add more events here
+        
         ],
         eventRender: function(event, element) {
             var timeText = element.find('.fc-time').text().slice(0, -1);
