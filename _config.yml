@@ -27,7 +27,7 @@ description: >
   Located in Spanish Fork, UT.
 
 baseurl: "" #/Scorched 
-url: "http://scorchedprovo.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://scorchedprovo.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
