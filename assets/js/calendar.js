@@ -15,36 +15,13 @@ $(document).ready(function() {
             }
         },
         events: [
-            {
-                title: 'Wood Burning',
-                start: '2024-07-13T19:00:00',
-                end: '2024-07-13T22:00:00',
-                allDay: false
-            },
-            {
-                title: 'Wood Burning',
-                start: '2024-07-18T19:00:00',
-                end: '2024-07-18T22:00:00',
-                allDay: false
-            },
-            {
-                title: 'Wood Burning',
-                start: '2024-08-02T19:00:00',
-                end: '2024-08-02T22:00:00',
-                allDay: false
-            },
-            {
-                title: 'Wood Burning',
-                start: '2024-08-07T19:00:00',
-                end: '2024-08-07T22:00:00',
-                allDay: false
-            },
-            {
-                title: 'Wood Burning',
-                start: '2024-08-13T19:00:00',
-                end: '2024-08-13T22:00:00',
-                allDay: false
-            }
+            { title: 'Wood Burning', start: '2024-07-13T19:00:00', end: '2024-07-13T22:00:00', allDay: false },
+            { title: 'Wood Burning', start: '2024-07-18T19:00:00', end: '2024-07-18T22:00:00', allDay: false },
+            { title: 'Wood Burning', start: '2024-08-02T19:00:00', end: '2024-08-02T22:00:00', allDay: false },
+            { title: 'Wood Burning', start: '2024-08-07T19:00:00', end: '2024-08-07T22:00:00', allDay: false },
+            { title: 'Wood Burning', start: '2024-08-13T19:00:00', end: '2024-08-13T22:00:00', allDay: false },
+            { title: 'Wood Burning', start: '2024-08-23T19:00:00', end: '2024-08-23T22:00:00', allDay: false },
+            { title: 'Wood Burning', start: '2024-08-30T19:00:00', end: '2024-08-30T22:00:00', allDay: false }
         
         ],
         eventRender: function(event, element) {

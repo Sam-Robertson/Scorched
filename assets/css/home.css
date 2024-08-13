@@ -75,7 +75,6 @@ hr.generalDivider {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    text-align: center;
     padding: 6rem 10rem;
 }
 
@@ -125,7 +124,11 @@ hr.generalDivider {
 }
 
 .pricingBody {
-    color: whitesmoke;
+    background-color: whitesmoke;
+    padding: 5rem 10rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
 }
 
 .container {
@@ -137,17 +140,37 @@ hr.generalDivider {
 }
 
 .pricing-table {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 3rem;
 }
 
 .pricing-table table {
-    width: 100%;
+    width: 70%;
     border-collapse: collapse;
+    margin: 0 auto;
 }
 
 .pricing-table th, .pricing-table td {
-    border: 1px solid #ddd;
+    border: 1px solid black;
     padding: 10px;
     text-align: left;
+}
+
+.note {
+    color: gray;
+    font-size: smaller;
+}
+
+.pricingBottom ul {
+    list-style-position: inside; /* Ensures bullets are aligned with the text */
+    text-align: left; /* Align the text and bullets to the left */
+}
+
+.pricingBottom {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.lgGroupTitle{
+    padding-bottom: 1rem;
 }
