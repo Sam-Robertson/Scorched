@@ -30,7 +30,6 @@ $(document).ready(function() {
             var endTime = event.end ? event.end.format('h:mm A') : '';
             var titleText = element.find('.fc-title').text(); 
 
-
             if (endTime.length == 8) {
                 endTime = endTime.slice(0, 2);
             } else if (endTime.length == 7) {
@@ -42,6 +41,14 @@ $(document).ready(function() {
         },
         eventClick: function(event) {
             window.open('https://calendly.com/scorchedprovo', '_blank');
-        }   
+        },
+        // Adjust the calendar view based on screen size
+        viewRender: function(view, element) {
+            if (window.matchMedia("(max-width: 575.98px)").matches) {
+                $('#calendar').fullCalendar('changeView', 'listMonth');
+            } else {
+                $('#calendar').fullCalendar('changeView', 'month');
+            }
+        }
     });
 });
