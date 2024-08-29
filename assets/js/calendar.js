@@ -21,7 +21,8 @@ $(document).ready(function() {
             { title: 'Wood Burning', start: '2024-08-07T19:00:00', end: '2024-08-07T22:00:00', allDay: false },
             { title: 'Wood Burning', start: '2024-08-13T19:00:00', end: '2024-08-13T22:00:00', allDay: false },
             { title: 'Wood Burning', start: '2024-08-23T19:00:00', end: '2024-08-23T22:00:00', allDay: false },
-            { title: 'Wood Burning', start: '2024-08-30T19:00:00', end: '2024-08-30T22:00:00', allDay: false }
+            { title: 'Wood Burning', start: '2024-08-30T19:00:00', end: '2024-08-30T22:00:00', allDay: false },
+            { title: 'Wood Burning', start: '2024-09-06T19:00:00', end: '2024-08-30T22:00:00', allDay: false }
         
         ],
         eventRender: function(event, element) {

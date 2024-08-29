@@ -174,3 +174,57 @@ hr.generalDivider {
 .lgGroupTitle{
     padding-bottom: 1rem;
 }
+/* For tablets and above */
+@media (max-width: 991.98px) {
+    #calendarContainer {
+        padding: 0rem 4rem;
+        padding-bottom: 2rem;
+    }
+    #calendarSection {
+        padding: 4rem 5rem;
+    }
+    .fc-center h2 {
+        font-size: 1.25rem; 
+        padding-right: 3em;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 575.98px) {
+    #calendarContainer {
+        padding: 0rem 1rem;
+        padding-bottom: 1rem;
+    }
+    #calendarSection {
+        padding: 2rem 2rem;
+    }
+    .fc-center h2 {
+        font-size: 1rem; 
+        padding-right: 0;
+    }
+    .fc-toolbar.fc-header-toolbar {
+        margin-bottom: 1em !important;
+    }
+
+    .pricingBody {
+        padding: 2rem 1rem;
+    }
+
+    .pricing-table table {
+        width: 100%;
+        font-size: 0.875rem;
+    }
+
+    .pricing-table th, .pricing-table td {
+        padding: 8px;
+        text-align: left;
+    }
+
+    .pricingBottom ul {
+        padding-left: 1rem;
+    }
+
+    .note {
+        font-size: smaller;
+    }
+}
