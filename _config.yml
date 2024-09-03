@@ -35,6 +35,8 @@ minima:
   post_header: false
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+
 markdown: kramdown
 permalink: /:title/
 
