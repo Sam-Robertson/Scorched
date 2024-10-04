@@ -29,7 +29,7 @@ $(document).ready(function() {
             { title: 'Wood Burning', start: '2024-10-10T19:00:00', end: '2024-10-10T22:00:00', allDay: false },
             { title: 'Fall Festival', start: '2024-10-04T17:00:00', end: '2024-10-04T21:00:00', allDay: false },
             { title: 'Wood Burning', start: '2024-10-24T19:00:00', end: '2024-10-24T22:00:00', allDay: false },
-            { title: 'Wood Burning', start: '2024-10-01T19:00:00', end: '2024-10-01T22:00:00', allDay: false }
+            { title: 'Wood Burning', start: '2024-11-01T19:00:00', end: '2024-11-01T22:00:00', allDay: false }
         
         ],
         eventRender: function(event, element) {
